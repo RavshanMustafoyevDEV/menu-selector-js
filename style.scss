@@ -1,0 +1,52 @@
+
+
+.box{
+    background: #bfbfbf;
+    border-radius: 5px;
+}
+
+.end-btn{
+    background: #2962ff;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.menu{
+
+    .menu-item{
+        transition: .3s all;
+        border-radius: 5px;
+
+        .name{
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        &.selected{
+            background: #2962ff;
+        }
+
+        &:hover{
+            background: #2962ff;
+            cursor: pointer;
+        }
+    }
+}
+
+
+.check-menu{
+    min-width: 20rem;
+
+    .check-menu-item{
+        transition: .3s all;
+        border-radius: 5px;
+
+        .name{
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+    }
+}
