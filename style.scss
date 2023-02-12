@@ -18,6 +18,7 @@
     .menu-item{
         transition: .3s all;
         border-radius: 5px;
+        border: 2px solid transparent;
 
         .name{
             font-size: 18px;
@@ -29,7 +30,7 @@
         }
 
         &:hover{
-            background: #2962ff;
+            border:2px solid #2962ff;
             cursor: pointer;
         }
     }
